@@ -1,0 +1,4 @@
+GLNU before: 6204.7975
+RLNU before: 509246.5161
+GLNU after: 6425.4365
+RLNU after: 489320.8891

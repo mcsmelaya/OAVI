@@ -10,10 +10,23 @@ with Image.open(f'/Users/darina_samoylenko/Lab1/src_img/{filename}.png') as img:
 
 img = img.convert("RGB")
 
-red, green, blue = img.split()
-red.save(f'/Users/darina_samoylenko/Lab1/new_img/red_{filename}.png')
-green.save(f'/Users/darina_samoylenko/Lab1/new_img/green_{filename}.png')
-blue.save(f'/Users/darina_samoylenko/Lab1/new_img/blue_{filename}.png')
+
+image = np.array(img)
+
+print("splitting channels...")
+r, g, b = image[:, :, 0], image[:, :, 1], image[:, :, 2]
+
+
+r_colored = np.stack([r, np.zeros_like(r), np.zeros_like(r)], axis=2)
+g_colored = np.stack([np.zeros_like(g), g, np.zeros_like(g)], axis=2)
+b_colored = np.stack([np.zeros_like(b), np.zeros_like(b), b], axis=2)
+
+
+Image.fromarray(r_colored.astype(np.uint8)).save(f'/Users/darina_samoylenko/Lab1/new_img/red_channel_{filename}.png')
+Image.fromarray(g_colored.astype(np.uint8)).save(f"/Users/darina_samoylenko/Lab1/new_img/green_channel_{filename}.png")
+Image.fromarray(b_colored.astype(np.uint8)).save(f"/Users/darina_samoylenko/Lab1/new_img/blue_channel_{filename}.png")
+
+
 
 
 def rgb_to_hsi(image):
@@ -43,6 +56,7 @@ def rgb_to_hsi(image):
     i = Image.fromarray((i * 255).astype('uint8'))
     i.save(f'/Users/darina_samoylenko/Lab1/new_img/intensity_{filename}.png')
 
+print("converting from RGB to HSI...")
 rgb_to_hsi(img)
 
 def invert_intensity(src_img):
@@ -63,6 +77,7 @@ def invert_intensity(src_img):
     inv_img = Image.fromarray(inv_img.astype('uint8'))
     inv_img.save(f'/Users/darina_samoylenko/Lab1/new_img/inverted_intensity_{filename}.png')
 
+print("inverting intensity...")
 invert_intensity(img)
 
 
@@ -101,6 +116,8 @@ def bilinear_resize(src_image, m):
 
 print("Enter M: ")
 M = int(input())
+print("bilinear resizing...")
+
 resized_img = bilinear_resize(img, M)
 resized_img.save(f'/Users/darina_samoylenko/Lab1/new_img/resized_in_{M}_times_{filename}.png')
 
@@ -126,6 +143,7 @@ def mean_resize(src_img, n):
 
 print("Enter N: ")
 N = int(input())
+print("mean resizing...")
 mean_img = mean_resize(img, 2)
 mean_img.save(f'/Users/darina_samoylenko/Lab1/new_img/resized_in_{N}_times_{filename}.png')
 
@@ -160,4 +178,5 @@ def one_pass_resampling(src_img, K):
 
 print("Enter K: ")
 K = float(input())
+print("1 pass resampling...")
 one_pass_resampling(img, K)
