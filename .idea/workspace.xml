@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fe13f4-b00b-4c12-9e5e-6076cb704fe4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 5/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 5/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 5/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab6/romantic_phrase.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/romantic_phrase.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab8/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab8/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/blue_strawberry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/blue_tiger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/blue_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/green_strawberry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/green_tiger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/green_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/intensity_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/inverted_intensity_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/one_pass_resampling_in_1.5_times_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/red_strawberry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/red_tiger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/red_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/resized_in_2_times_strawberry.png" beforeDir="false" afterPath="$PROJECT_DIR$/new_img/resized_in_2_times_strawberry.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/resized_in_2_times_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/resized_in_3_times_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/rgb_to_hsi_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/two_pass_resampling_in_22_times_strawberry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_img/two_pass_resampling_in_23_times_vp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_img/vp.png" beforeDir="false" />
-    </list>
+    <list default="true" id="40fe13f4-b00b-4c12-9e5e-6076cb704fe4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
